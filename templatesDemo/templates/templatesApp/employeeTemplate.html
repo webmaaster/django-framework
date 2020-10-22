@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %} 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Data</title>
+  <link rel="stylesheet" href="{% static 'css/emp.css' %}">
+</head>
+<body>
+  <h1>Employee Information is below:</h1>
+  <ul>
+    <li>ID:{{id}}</li>
+    <li>Name: {{name}}</li>
+    <li>Salary: {{sal}}</li>
+    <li>Department:{{Dept}}</li>
+  </ul>
+
+  <img src='{% static "images/developer.jpg"%}'/>
+  
+  
+</body>
+</html>
